@@ -7,9 +7,9 @@ import style from '../../../src/assets/Styles/SearchResult.style'
 const SearchResult = ({data}) => {
     let available = true
 
-    var listJadwal = () => {
+    let listJadwal = () => {
 
-        var newJadwal = Jadwal.filter( (x) => {
+        let newJadwal = Jadwal.filter( (x) => {
             let checkBandaraK = Bandara.filter( (x) => {
                 return x.bandara_nama.toLowerCase() == data.keberangkatan.toLowerCase()
             })
@@ -42,11 +42,7 @@ const SearchResult = ({data}) => {
                 //capitalize the first letter of each word
                 let capitalizeTheFirstLetterOfEachWord = (words) => {
                     let separateWord = words.toLowerCase().split(' ');
-                    for (let i = 0; i < separateWord.length; i++) {
-                       separateWord[i] = separateWord[i].charAt(0).toUpperCase() +
-                       separateWord[i].substring(1);
-                    }
-                    return separateWord.join(' ');
+                    return separateWord.map((text) => text[0].toUpperCase() + text.substring(1)).join(' ')
                 }
     
                 if(available == true){

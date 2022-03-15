@@ -28,7 +28,7 @@ Apa saja yang digunakan dalam membuat aplikasi ini:
 <p align="center"><img width="300" src="Screenshot/Tampilan ResultPage Case 1.jpg" alt="Tampilan ResultPage 1.jpg"></p>
 
 <b>TAMPILAN SEARCHPAGE CASE 2</b>
-<p align="center"><img width="300" src="Screenshot/Tampilan ResultPage Case 2.jpg" alt="Tampilan SearchPage 2.jpg"></p>
+<p align="center"><img width="300" src="Screenshot/Tampilan SearchPage Case 2.jpg" alt="Tampilan SearchPage 2.jpg"></p>
 
 <b>TAMPILAN RESULTPAGE CASE 2</b>
-<p align="center"><img width="300" src="Screenshot/Tampilan SearchPage Case 2.jpg" alt="Tampilan ResultPage 2.jpg"></p>
+<p align="center"><img width="300" src="Screenshot/Tampilan ResultPage Case 2.jpg" alt="Tampilan ResultPage 2.jpg"></p>

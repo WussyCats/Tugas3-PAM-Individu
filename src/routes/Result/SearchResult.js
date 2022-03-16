@@ -51,6 +51,7 @@ const SearchResult = ({data}) => {
                             <View style={style.upperText}>
                                 <Text style={style.text}>{capitalizeTheFirstLetterOfEachWord(data.keberangkatan)}</Text>
                                 <Text style={style.text}> - </Text>
+                                // Muhammad Farisi Zatwara Putra Unyi
                                 <Text style={style.text}>{capitalizeTheFirstLetterOfEachWord(data.tujuan)}</Text>
                             </View>
                             
